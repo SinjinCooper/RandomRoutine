@@ -1,0 +1,12 @@
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\bin\Debug\netstandard2.0\RandomRoutine.deps.json
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\bin\Debug\netstandard2.0\RandomRoutine.dll
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\bin\Debug\netstandard2.0\RandomRoutine.pdb
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\obj\Debug\netstandard2.0\RandomRoutine.csprojAssemblyReference.cache
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\obj\Debug\netstandard2.0\RandomRoutine.csproj.CoreCompileInputs.cache
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\obj\Debug\netstandard2.0\RandomRoutine.AssemblyInfoInputs.cache
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\obj\Debug\netstandard2.0\RandomRoutine.AssemblyInfo.cs
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\obj\Debug\netstandard2.0\RandomRoutine.dll
+C:\Users\scooper\source\TestProjects\RandomRoutine\RandomRoutine\obj\Debug\netstandard2.0\RandomRoutine.pdb

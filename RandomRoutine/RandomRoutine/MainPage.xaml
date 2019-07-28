@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RandomRoutine"
+             x:Class="RandomRoutine.MainPage">
+
+    <Grid
+        Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackLayout
+            x:Name="lblTitle"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="2">
+            <Label
+                Text="Random Routine"
+                FontSize="Large"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="A full-body workout routine generator"
+                FontSize="Small"
+                HorizontalOptions="Center"/>
+            <BoxView
+                HeightRequest="3"
+                Color="Black"
+                WidthRequest="100"/>
+        </StackLayout>
+
+        <!--Push row-->
+        <Label
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="PUSH:"
+            FontSize="Medium"/>
+        <Label
+            x:Name="lblPushEx"
+            Grid.Row="1"
+            Grid.Column="1"
+            FontSize="Medium"
+            HorizontalOptions="EndAndExpand"/>
+
+        <!--Pull row-->
+        <Label
+            Grid.Row="2"
+            Grid.Column="0"
+            Text="PULL:"
+            FontSize="Medium"/>
+        <Label
+            x:Name="lblPullEx"
+            Grid.Row="2"
+            Grid.Column="1"
+            FontSize="Medium"
+            HorizontalOptions="EndAndExpand"/>
+
+        <!--Legs row-->
+        <Label
+            Grid.Row="3"
+            Grid.Column="0"
+            Text="LEGS:"
+            FontSize="Medium"/>
+        <Label
+            x:Name="lblLegsEx"
+            Grid.Row="3"
+            Grid.Column="1"
+            FontSize="Medium"
+            HorizontalOptions="EndAndExpand"/>
+
+        <!--Biceps row-->
+        <Label
+            Grid.Row="4"
+            Grid.Column="0"
+            Text="BICEPS:"
+            FontSize="Medium"/>
+        <Label
+            x:Name="lblBicepsEx"
+            Grid.Row="4"
+            Grid.Column="1"
+            FontSize="Medium"
+            HorizontalOptions="EndAndExpand"/>
+
+        <!--Triceps row-->
+        <Label
+            Grid.Row="5"
+            Grid.Column="0"
+            Text="TRICEPS:"
+            FontSize="Medium"/>
+        <Label
+            x:Name="lblTricepsEx"
+            Grid.Row="5"
+            Grid.Column="1"
+            FontSize="Medium"
+            HorizontalOptions="EndAndExpand"/>
+
+        <!--Bonus row-->
+        <Label
+            Grid.Row="6"
+            Grid.Column="0"
+            Text="BONUS:"
+            FontSize="Medium"/>
+        <Label
+            x:Name="lblBonusEx"
+            Grid.Row="6"
+            Grid.Column="1"
+            FontSize="Medium"
+            HorizontalOptions="EndAndExpand"/>
+
+        <Button
+            x:Name="btnRandom"
+            BackgroundColor="Blue"
+            TextColor="White"
+            Text="Randomize"
+            HeightRequest="20"
+            WidthRequest="20"
+            Grid.Row="7"
+            Grid.Column="1"
+            Clicked="BtnRandom_Clicked"/>
+
+    </Grid>
+
+</ContentPage>
